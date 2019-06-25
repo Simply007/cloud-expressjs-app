@@ -27,6 +27,7 @@ app.use('/', require('./routes/contacts'));
 app.use('/', require('./routes/store'));
 app.use('/', require('./routes/coffee'));
 app.use('/', require('./routes/brewer'));
+app.use('/', require('./routes/api'));
 
 //register main.js for use in Pug
 app.locals.serverjs = serverjs;
